@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 随机字典生成器 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP26E2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/随机字典生成器.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\渗透\工具包编写\随机字典生成器\随机字典生成器Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP26E2.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP26E3.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/随机字典生成器.pdb" /debug /machine:I386 /out:"Debug/随机字典生成器.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\随机字典生成器.obj"
+".\Debug\随机字典生成器Dlg.obj"
+".\Debug\随机字典生成器.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP26E3.tmp"
+<h3>Output Window</h3>
+Compiling...
+随机字典生成器Dlg.cpp
+F:\渗透\工具包编写\随机字典生成器\随机字典生成器Dlg.cpp(219) : warning C4129: '.' : unrecognized character escape sequence
+F:\渗透\工具包编写\随机字典生成器\随机字典生成器Dlg.cpp(383) : warning C4244: 'argument' : conversion from 'long' to 'short', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+随机字典生成器.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
